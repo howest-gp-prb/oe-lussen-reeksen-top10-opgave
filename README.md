@@ -1,4 +1,4 @@
-# oe-lussen-reeksen-top10-opl
+# oe-lussen-reeksen-top10-opgave
 
 ## Opgave
 Schrijf een applicatie waar je jouw top 10's kan bijhouden voor bepaalde categorieën.
@@ -21,7 +21,16 @@ categories = new string[6] {
             };
 ```
 
-* Deze oefening maakt gebruik van lijsten binnin een lijst.
-* Maak gebruik van het `const` keyword om bij te houden dat je met 10 items (top 10) werkt. Dit is namelijk onveranderlijk ...
+* Schrijf een __methode__ die een getal retourneert met het aantal top 10 items voor de categorie.
+Toon vervolgens in `lblNumberOfItems` hoeveel items er werden toegevoegd aan de top 10. Bv.:
+```
+2/10
+```
+* Voor deze oefening heb je een array van `List` nodig.
+* Maak gebruik van een klassevariabele `MaxItems` die het maximale aantal items bijhoudt (dat is hier 10). Aangezien deze waarde tijdens het uitvoeren van je programma nooit zal veranderen, kan je die op de volgende manier declareren: 
+```
+//Hierbij staat de const voor constante (iets dat niet kan veranderen).
+const int MaxItems = 10;
+```
 * Voorzie code die de gebruiker op de hoogte stelt van foutieve ingave.
 
