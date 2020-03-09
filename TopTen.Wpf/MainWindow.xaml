@@ -1,0 +1,16 @@
+﻿<Window x:Name="___No_Name_" x:Class="TopTen.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TopTen.Wpf"
+        mc:Ignorable="d"
+        Title="My Top 10s" Height="464.4" Width="242.321">
+    <Grid>
+        <ComboBox x:Name="cmbTopTenNumber" HorizontalAlignment="Left" Margin="62,10,0,0" VerticalAlignment="Top" Width="164" Height="29"/>
+        <ListBox x:Name="lstTopTen" HorizontalAlignment="Left" Height="342" Margin="10,44,0,0" VerticalAlignment="Top" Width="216"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="151,391,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txtAddItem" HorizontalAlignment="Left" Height="19" Margin="10,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <Label x:Name="lblNumberOfItems" Content="" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="47"/>
+    </Grid>
+</Window>
